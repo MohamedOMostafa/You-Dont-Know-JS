@@ -482,8 +482,9 @@ The `break` is important if you want only the statement(s) in one `case` to run.
 ```js
 switch (a) {
 	case 2:
-	case 10:
 		// some cool stuff
+	case 10:
+		// other cool stuff
 		break;
 	case 42:
 		// other stuff
